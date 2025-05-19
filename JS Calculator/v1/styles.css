@@ -1,0 +1,28 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+:root {
+  --gap: 8px;
+}
+
+/* input fields */
+.inputFields {
+  display: flex;
+  gap: var(--gap);
+  flex-direction: column;
+}
+input {
+  padding: 8px;
+}
+
+/* buttons */
+.buttonCalc {
+  display: flex;
+  gap: var(--gap);
+}
+.buttonCalc button {
+  width: 100%;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <!-- Input fields for calculation -->
+      <div class="inputFields">
+        <input type="number" id="num1" placeholder="number1" />
+        <input type="number" id="num2" placeholder="number2" />
+      </div>
+      <!-- buttons for calc -->
+      <div class="buttonCalc">
+        <button onclick="add()" id="add">+</button>
+        <button onclick="sub()">-</button>
+        <button onclick="multiply()">*</button>
+        <button onclick="divide()">/</button>
+        <button onclick="modulu()">%</button>
+        <button onclick="window.location.reload()">reset</button>
+        <button onclick="memory()">memory</button>
+        <button onclick="resulta()">=</button>
+      </div>
+      <!-- result -->
+      <div>
+        <input type="number" id="result" placeholder="result" disabled />
+      </div>
+    </main>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
